@@ -3,5 +3,8 @@
       { "src": "/idcard", "dest": "/" },
       { "src": "/[^.]+", "dest": "/", "status": 200 }
     ],
-    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
+    ]
   }
+  
