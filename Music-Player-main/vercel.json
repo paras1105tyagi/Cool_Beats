@@ -1,9 +1,6 @@
 {
-    "routes": [
-      { "src": "/idcard", "dest": "/" },
-      { "src": "/[^.]+", "dest": "/", "status": 200 }
-    ],
     "rewrites": [
+      { "source": "/idcard", "destination": "/" },
       { "source": "/(.*)", "destination": "/" }
     ]
   }
